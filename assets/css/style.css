@@ -1441,10 +1441,10 @@ li.active a:hover {
 
 .topmenu1:hover {
     background: #ffd202;
-    background: -moz-linear-gradient(left, #ffd202 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #ffd202 100%, #766201 100%);
-    background: -webkit-linear-gradient(left, #ffd202 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #ffd202 100%, #766201 100%);
-    background: linear-gradient(to right, #ffd202 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #ffd202 100%, #766201 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd202', endColorstr='#766201', GradientType=1);
+    background: -moz-linear-gradient(left, #f1f1f1 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #f1f1f1 100%, #766201 100%);
+    background: -webkit-linear-gradient(left, #f1f1f1 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #f1f1f1 100%, #766201 100%);
+    background: linear-gradient(to right, #f1f1f1 0%, #2d2600 20%, #1c1700 50%, #2d2600 80%, #ffd202 100%, #766201 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#766201', GradientType=1);
     width: 100%;
 }
 
