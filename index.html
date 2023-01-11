@@ -147,14 +147,14 @@ Tampilkan hasil. <input name="maxoutput" size="13" type="hidden" /> <input check
 <span style="font-size: large;"><b>Angka tarung dalam:</b></span>
 </div>
 <div style="text-align: center;">
-<input name="inputstring" maxlength="10" type="number" value=""/>
-<select name="maxwidth">
+<input name="inputstring" maxlength="10" type="number" value="" style="width:90%;"/>
+<select name="maxwidth" style="width:90%;">
   <option value="2">2D</option>
   <option value="3">3D</option>
   <option value="4">4D</option>
 </select>
 
-<select id="select1">
+<select id="select1" style="width:90%;">
   <option value="*">*</option>
   <option value="#">#</option>
 </select>
@@ -162,12 +162,12 @@ Tampilkan hasil. <input name="maxoutput" size="13" type="hidden" /> <input check
 
  </div>
 <div style="text-align: center;">
-<input onclick="javascript:GeneratePermutations()" type="button" value="GENERATE" /> <input onclick="javascript:ClearReset()" type="button" value="BERSIHKAN" />
+<input onclick="javascript:GeneratePermutations()" type="button" value="GENERATE" style="width:90%;"/> <input onclick="javascript:ClearReset()" type="button" value="BERSIHKAN" style="width:90%;"/>
 </div>
 <center>
 <input disabled="disabled" name="chkbx_comma" type="hidden" value="ON" />
 <input name="feedback" style="width: 90%;" readonly/>
-<textarea cols="90" name="permlist" rows="15" style="font-size: 16px; width: 95%;" wrap="virtual"></textarea></form>
+<textarea cols="90" name="permlist" rows="15" style="font-size: 16px; width: 90%;" wrap="virtual"></textarea></form>
 <center>
 <br>
 <h3 style="color: black">Pola As Kop Kepala Ekor </h3>
@@ -188,12 +188,12 @@ Tampilkan hasil. <input name="maxoutput" size="13" type="hidden" /> <input check
   <option value="#">#</option>
 </select>
 
-<input id="str" type="hidden" name="str"  ><input type="submit" value="GENERATE" /><input type="button" onclick="trimSpaces();" value="HILANGKAN SPASI">
+<input id="str" type="hidden" name="str"  ><input type="submit" value="GENERATE" style="width:90%;"/><input type="button" onclick="trimSpaces();" value="HILANGKAN SPASI" style="width:90%;">
 </center>
 
 <center>
 <b><i id="count"></i></b>
-<textarea id="textString" cols="30" name="txt" rows="20" style="font-size: 16px; width: 98%;"></textarea>
+<textarea id="textString" cols="30" name="txt" rows="20" style="font-size: 16px; width: 90%;"></textarea>
 
 
 </center>
